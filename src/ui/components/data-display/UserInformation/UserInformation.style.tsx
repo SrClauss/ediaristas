@@ -21,7 +21,7 @@ export const UserName = styled("div")`
   font-size: ${({ theme }) => theme.typography.body2.fontSize};
 `;
 export const UserDescription = styled("div")`
-grid-area: description
+  grid-area: description;
   color: ${({ theme }) => theme.palette.text.secondary};
   font-size: ${({ theme }) => theme.typography.body2.fontSize};
 `;
